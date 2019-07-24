@@ -11,7 +11,7 @@
     <div class="top-amari">
         <nav class="menu">
             <li>
-                <a href="./index.php">ホーム</a>
+                <a href="http://localhost:8000/index.php">ホーム</a>
                 <!-- <a href="#problem">アレンジ問題</a>
                 <a href="#login">ログイン</a>
                 <a href="#new">新規作成</a> -->

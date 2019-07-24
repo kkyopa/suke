@@ -2,5 +2,5 @@
 
 require('../config.php');
 require("../header.php");
-include("../tpl/problem/openout.html");
+include("../tpl/problem/doubleout.html");
 include("../footer.php");
