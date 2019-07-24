@@ -8,7 +8,7 @@
 <body>
     <header class="header clearfix">
     <div class="top-amari">
-        <nav class="menu">
+        <nav class="menufooter">
             <li>
                 <p id="copyright">Copyright ©️ribatere All Rights Reserved</p>
             </li>

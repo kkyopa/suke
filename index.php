@@ -1,6 +1,6 @@
 <?php
 
 require('./config.php');
-require("./header.html");
+require("./header.php");
 include("./tpl/top.page/top.html");
-include("./footer.html");
+include("./footer.php");
