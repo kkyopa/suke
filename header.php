@@ -15,9 +15,9 @@
                 <!-- <a href="#problem">アレンジ問題</a>
                 <a href="#login">ログイン</a>
                 <a href="#new">新規作成</a> -->
-                <a href="#kiyaku">利用規約</a>
-                <a href="#porisi">プライバシーポリシー</a>
-                <a href="#Blog">お問い合わせ</a>
+                <a href="http://localhost:8000/service.php">利用規約</a>
+                <a href="http://localhost:8000/privacy.php">プライバシーポリシー</a>
+                <a href="http://localhost:8000/contact.php">お問い合わせ</a>
             </li>
         </nav>
     </div>
