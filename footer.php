@@ -6,6 +6,7 @@
 <title>dartsarrange</title>
 </head>
 <body>
+    <footer>
     <header class="header clearfix">
     <div class="top-amari">
         <nav class="menufooter">
@@ -14,5 +15,6 @@
             </li>
         </nav>
     </div>
+    </footer>
 </body>
 </html>

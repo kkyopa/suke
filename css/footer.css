@@ -4,16 +4,24 @@
 
 .menufooter {
     list-style:none;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    overflow:hidden;
 }
-.menufooter li {
+
+html {
+    min-height: 100%;
+    position: relative;
+  }
+
+  body {
+    margin-bottom: 5em;
+  }
+
+  footer {
+    bottom: 0;
+    height: 5em;
+    position: absolute;
     font-family: 'Verdana',sans-serif;
     width: 100%;
     text-align: center;
     float:left;
     background-color:#DD0000;
-}
-
+  }
