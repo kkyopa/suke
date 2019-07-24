@@ -22,3 +22,18 @@ a, a:visited {
     text-decoration: none;
     margin: 0 20px;
   }
+
+
+  input[type="submit"]{
+    background: #e0505c;
+    border: none;
+    color: white;
+    font-size:30px;
+    font-weight:bold;
+    padding: 10px 20px;
+    margin: 0 5px;
+  }
+
+  #mondaisu {
+    margin-bottom: 70px;
+  }
