@@ -19,6 +19,6 @@
 <title>dartsarrange</title>
 </head>
 <body>
-<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script> -->
 </body>
 </html>
