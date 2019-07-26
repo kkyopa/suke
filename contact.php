@@ -15,7 +15,12 @@ require("./header.php");
 
 <p class="lead-form">お問い合わせはこちらから！</p>
 
-<form>
+<form action="mail.php" method="post">
+
+<div class="item">
+<label class="label">件名</label>
+<input type="text" name="subject" size="37" value="" /><br />
+</div>
 
 <div class="item">
 <label class="label">お名前</label>
@@ -29,7 +34,7 @@ require("./header.php");
 
 <div class="item">
 <label class="label">内容</label>
-<textarea class="inputs"></textarea>
+<textarea name="message" class="inputs"></textarea>
 </div>
 
 <div class="btn-area">
