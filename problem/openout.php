@@ -12,7 +12,7 @@ require("../header.php");
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
         <!--今回メインのajax処理を記載したjsファイルを読み込みます。-->
-        <script type="text/javascript" src="./ajax.js"></script>
+        <script type="text/javascript" src="./start.js"></script>
         <!--記事内では触れてませんが適当にcssをあてております。-->
         <link rel ="stylesheet" href="../../css/header.css">
     </head>
@@ -38,26 +38,12 @@ $("#search_button").on("click", function() {
 });
 });
 
-        </script>
+
+</script>
     </div>
     <div id="res"></div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <?php
 // include("../tpl/problem/openout.html");

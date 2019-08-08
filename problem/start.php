@@ -18,6 +18,7 @@ echo $arrangenumber . "<br>";
     <meta charset="utf-8" />
     <link rel ="stylesheet" href="../../css/top.css">
     <link rel ="stylesheet" href="../../css/header.css">
+    <script type="text/javascript" src="./start.js"></script>
     <title>dartsarrange</title>
 </head>
 <body>
@@ -59,7 +60,6 @@ echo $arrangenumber . "<br>";
   <option value="numberzone" data-val="numberzone">ダブル</option>
   <option value="numberzone" data-val="numberzone">トリプル</option>
 </select>
-<br>
     <br>
     <label class="kaitou2">2本目</label>
     <br>
@@ -144,7 +144,7 @@ echo $arrangenumber . "<br>";
 
 <script>
 
-// 一本目
+// 一本目bullか数字かでプルダウン表示変更
 var $children = $('.children');
 var original = $children.html();
 
@@ -167,7 +167,7 @@ $('.parent').change(function() {
 
 });
 
-// 二本目
+// 二本目bullか数字かでプルダウン表示変更
 var $childrena = $('.childrena');
 var originala = $childrena.html();
 
@@ -190,7 +190,7 @@ $('.parenta').change(function() {
 
 });
 
-// ３本目
+// 三本目bullか数字かでプルダウン表示変更
 var $childrenb = $('.childrenb');
 var originalb = $childrenb.html();
 

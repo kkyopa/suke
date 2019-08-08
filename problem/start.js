@@ -8,7 +8,7 @@ $(function() {
                           //POST通信
                           type: "POST",
                           //ここでデータの送信先URLを指定します。
-                          url: "ajax.php",
+                          url: "start.php",
                           data: data,
                           //処理が成功したら
                           success : function(data, dataType) {
