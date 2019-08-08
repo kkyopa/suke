@@ -7,7 +7,7 @@
 </head>
 <body>
     <header class="header clearfix">
-            <p id="title">ダーツアレンジ</p>
+            <p id="title">ダーツアレンジデータ</p>
     <div class="top-amari">
         <nav class="menu">
             <li>

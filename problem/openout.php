@@ -19,8 +19,8 @@ require("../header.php");
 <body>
     <div id=title>
         <h1> オープンアウト編</h1>
-        <form id=mondaisu method="post">
-            <p>問題数を選ぶ</p>
+        <form id="mondaisu" method="post">
+            <p id="mondaierabu">問題数を選ぶ</p>
             <select name="mondaisu">
                 <option value="5">5</option>
                 <option value="10">10</option>
@@ -31,7 +31,14 @@ require("../header.php");
         <div class="btn-area">
             <input type="submit" value="スタート" id="search_button">
         </div>
+        <script>
+    $(function() {
+$("#search_button").on("click", function() {
+  $("#search_button, #mondaisu").remove();
+});
+});
 
+        </script>
     </div>
     <div id="res"></div>
 </body>

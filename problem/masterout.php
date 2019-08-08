@@ -18,4 +18,7 @@ require("../header.php");
         <input type="submit" value="スタート">
     </div>
 </div>
+
+
+
 <?php include("../footer.php"); ?>

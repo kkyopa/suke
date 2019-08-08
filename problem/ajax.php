@@ -1,34 +1,218 @@
+
+<div id=title>
+<div class="sample_box8">
 <?php
 
-echo  "成功";
-    //postデータを受け取る
-    // $ken = $_POST&#91;'request'&#93;;
+// $db = new PDO("mysql:dbname=dartsarrange","root");
+// $sql = $db->prepare( 'SELECT * FROM dartsarrange');
+// $sql->execute();
 
-    //受け取ったデータが空でなければ
-    // if (!empty($ken)) {
-
-    //     //pdoインスタンス生成
-    //     $pdo = new PDO ('mysql:host=localhost;dbname=local', '【ユーザー名】', '【パスワード】');
-    //     //SQL文作成
-    //     $sql = "select city from local.test where prefecture = '".$ken."'";
-    //     //SQL実行
-    //     $results = $pdo->query($sql);
-    //     //出力ごにょごにょ
-    //     echo '<table class="list_table">';
-    //     echo "<tr>";
-    //     echo "<th>市町村</th>";
-    //     echo "</tr>";
-    //     //データベースより取得したデータを一行ずつ表示する
-    //     foreach ($results as $result) {
-    //         echo "<tr>";
-    //         echo "<td>".$result['city']."</td>";
-    //         echo "</tr>";
-    //     }
-    //     echo "</table>";
-
-    // //空だったら
-    // } else {
-    //     echo '<p id="tekito">エラー：都道府県を選択して下さい。</p>';
-    // }
+while( in_array( ($arrangenumber = mt_rand(1,180)), array(163, 166, 169, 172, 173, 175, 176, 178, 179,) ) );
+echo $arrangenumber . "<br>";
 
 ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel ="stylesheet" href="../../css/top.css">
+    <link rel ="stylesheet" href="../../css/header.css">
+    <title>dartsarrange</title>
+</head>
+<body>
+
+
+<br>
+<label class="kaitou1">1本目</label>
+<br>
+<select class="parent" name="foo">
+  <option value="" selected="selected"></option>
+  <option value="bull">bull</option>
+  <option value="numberzone">1</option>
+  <option value="numberzone">2</option>
+  <option value="numberzone">3</option>
+  <option value="numberzone">4</option>
+  <option value="numberzone">5</option>
+  <option value="numberzone">6</option>
+  <option value="numberzone">7</option>
+  <option value="numberzone">8</option>
+  <option value="numberzone">9</option>
+  <option value="numberzone">10</option>
+  <option value="numberzone">11</option>
+  <option value="numberzone">12</option>
+  <option value="numberzone">13</option>
+  <option value="numberzone">14</option>
+  <option value="numberzone">15</option>
+  <option value="numberzone">16</option>
+  <option value="numberzone">17</option>
+  <option value="numberzone">18</option>
+  <option value="numberzone">19</option>
+  <option value="numberzone">20</option>
+</select>
+<br>
+
+<select class="children" name="bar" disabled>
+  <option value="" selected="selected"></option>
+  <option value="bull" data-val="bull"></option>
+  <option value="numberzone" data-val="numberzone">シングル</option>
+  <option value="numberzone" data-val="numberzone">ダブル</option>
+  <option value="numberzone" data-val="numberzone">トリプル</option>
+</select>
+<br>
+    <br>
+    <label class="kaitou2">2本目</label>
+    <br>
+<select class="parenta" name="foo">
+  <option value="" selected="selected"></option>
+  <option value="bull">bull</option>
+  <option value="numberzone">1</option>
+  <option value="numberzone">2</option>
+  <option value="numberzone">3</option>
+  <option value="numberzone">4</option>
+  <option value="numberzone">5</option>
+  <option value="numberzone">6</option>
+  <option value="numberzone">7</option>
+  <option value="numberzone">8</option>
+  <option value="numberzone">9</option>
+  <option value="numberzone">10</option>
+  <option value="numberzone">11</option>
+  <option value="numberzone">12</option>
+  <option value="numberzone">13</option>
+  <option value="numberzone">14</option>
+  <option value="numberzone">15</option>
+  <option value="numberzone">16</option>
+  <option value="numberzone">17</option>
+  <option value="numberzone">18</option>
+  <option value="numberzone">19</option>
+  <option value="numberzone">20</option>
+</select>
+<br>
+
+<select class="childrena" name="bar" disabled>
+  <option value="" selected="selected"></option>
+  <option value="bull" data-val="bull"></option>
+  <option value="numberzone" data-val="numberzone">シングル</option>
+  <option value="numberzone" data-val="numberzone">ダブル</option>
+  <option value="numberzone" data-val="numberzone">トリプル</option>
+</select>
+<br>
+    <label class="kaitou3">3本目</label>
+    <br>
+    <br>
+<select class="parentb" name="foo">
+  <option value="" selected="selected"></option>
+  <option value="bull">bull</option>
+  <option value="numberzone">1</option>
+  <option value="numberzone">2</option>
+  <option value="numberzone">3</option>
+  <option value="numberzone">4</option>
+  <option value="numberzone">5</option>
+  <option value="numberzone">6</option>
+  <option value="numberzone">7</option>
+  <option value="numberzone">8</option>
+  <option value="numberzone">9</option>
+  <option value="numberzone">10</option>
+  <option value="numberzone">11</option>
+  <option value="numberzone">12</option>
+  <option value="numberzone">13</option>
+  <option value="numberzone">14</option>
+  <option value="numberzone">15</option>
+  <option value="numberzone">16</option>
+  <option value="numberzone">17</option>
+  <option value="numberzone">18</option>
+  <option value="numberzone">19</option>
+  <option value="numberzone">20</option>
+</select>
+<br>
+
+<select class="childrenb" name="bar" disabled>
+  <option value="" selected="selected"></option>
+  <option value="bull" data-val="bull"></option>
+  <option value="numberzone" data-val="numberzone">シングル</option>
+  <option value="numberzone" data-val="numberzone">ダブル</option>
+  <option value="numberzone" data-val="numberzone">トリプル</option>
+</select>
+<br>
+    <br> <br>
+
+<div class="btn-area">
+    <input type="submit" value="次へ" id="search_button">
+ </div>
+</div>
+</div>
+
+<script>
+
+// 一本目
+var $children = $('.children');
+var original = $children.html();
+
+$('.parent').change(function() {
+
+  var val1 = $(this).val();
+
+  $children.html(original).find('option').each(function() {
+    var val2 = $(this).data('val');
+    if (val1 != val2) {
+      $(this).not(':first-child').remove();
+    }
+  });
+
+  if ($(this).val() == "") {
+    $children.attr('disabled', 'disabled');
+  } else {
+    $children.removeAttr('disabled');
+  }
+
+});
+
+// 二本目
+var $childrena = $('.childrena');
+var originala = $childrena.html();
+
+$('.parenta').change(function() {
+
+  var val3 = $(this).val();
+
+  $childrena.html(originala).find('option').each(function() {
+    var val4 = $(this).data('val');
+    if (val3 != val4) {
+      $(this).not(':first-child').remove();
+    }
+  });
+
+  if ($(this).val() == "") {
+    $childrena.attr('disabled', 'disabled');
+  } else {
+    $childrena.removeAttr('disabled');
+  }
+
+});
+
+// ３本目
+var $childrenb = $('.childrenb');
+var originalb = $childrenb.html();
+
+$('.parentb').change(function() {
+
+  var val5 = $(this).val();
+
+  $childrenb.html(originalb).find('option').each(function() {
+    var val6 = $(this).data('val');
+    if (val5 != val6) {
+      $(this).not(':first-child').remove();
+    }
+  });
+
+  if ($(this).val() == "") {
+    $childrenb.attr('disabled', 'disabled');
+  } else {
+    $childrenb.removeAttr('disabled');
+  }
+
+});
+
+</script>
+</body>
+</html>
