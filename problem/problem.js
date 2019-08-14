@@ -1,7 +1,8 @@
 $(function() {
     //検索ボタンがクリックされたら処理が走ります。
-    $('#search_button').click(function() {
+    $('#problem_button').click(function() {
                   //HTMLから受け取るデータです。
+                if(document.form1.field_total.value == 0 ){
                   var data = {request : $('#request').val()};
                   //ここからajaxの処理です。
                   $.ajax({
@@ -22,6 +23,17 @@ $(function() {
                    });
                    //submitによる画面リロードを防いでいます。
                    return false;
+                };
       });
     });
+
+
+// function checkForm(){
+//     if(document.form1.field_total.value != 0 ){
+//         alert("0にして下さい");
+// 	return false;
+//     }else{
+// 	return true;
+//     }
+// }
 

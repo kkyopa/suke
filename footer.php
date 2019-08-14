@@ -11,7 +11,7 @@
     <div class="top-amari">
         <nav class="menufooter">
             <li>
-                <p id="copyright">Copyright ©️ribatere All Rights Reserved</p>
+                <p id="copyright">Copyright ©️dartsengine All Rights Reserved</p>
             </li>
         </nav>
     </div>

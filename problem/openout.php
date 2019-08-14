@@ -42,8 +42,12 @@ $("#search_button").on("click", function() {
 </script>
     </div>
     <div id="res"></div>
+
 </body>
 </html>
+
+
+
 
 <?php
 // include("../tpl/problem/openout.html");
