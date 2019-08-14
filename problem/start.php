@@ -313,8 +313,8 @@ echo $arrangenumber . "<br>" . "<br>";
 </select>
 <br><br>
 
-<p>合計</p><br><br>
-<input type="text" name="field_total" size="8" value="0" >
+<p>０にしてください</p>
+<input type="text" name="field_total" size="8" value="点数" >
 
 <div class="btn-area">
     <input type="submit" value="次へ" id="problem_button" onclick="return checkText();" >
