@@ -28,6 +28,14 @@ $(function() {
     });
 
 
+    function Sample4(){
+      var hoge = openout.mondaisu.value;
+      　　if (hoge == 6) {
+          window.location.href = "../result/openresult.php";
+             // alert(hoge+"が選択されています");
+ 　　     }
+     }
+
 // function checkForm(){
 //     if(document.form1.field_total.value != 0 ){
 //         alert("0にして下さい");

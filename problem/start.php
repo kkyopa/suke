@@ -7,11 +7,16 @@
 // $sql = $db->prepare( 'SELECT * FROM dartsarrange');
 // $sql->execute();
 
+
+
+
+
+echo '<br>'.'<br>';
+
 while( in_array( ($arrangenumber = mt_rand(1,180)), array(163, 166, 169, 172, 173, 175, 176, 178, 179,) ) );
 echo $arrangenumber . "<br>" . "<br>";
 
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -313,8 +318,11 @@ echo $arrangenumber . "<br>" . "<br>";
 </select>
 <br><br>
 
+
+
 <p>０にしてください</p>
 <input type="text" name="field_total" size="8" value="点数" >
+
 
 <div class="btn-area">
     <input type="submit" value="次へ" id="problem_button" onclick="return checkText();" >
@@ -325,20 +333,20 @@ echo $arrangenumber . "<br>" . "<br>";
 </div>
 </div>
 
+
+
   <script>
     function checkText() {
+      var $countA = 0;
       if(document.form1.field_total.value != 0 ){
           alert('点数を0にして下さい');
           return false;
       }else{
-	return true;
+        // document.getElementById( "sampleOutputA" ).innerHTML = ++$countA;
+	      // return true;
     }
     }
   </script>
-
-
-
-
 
 <script>
 // 一本目bullか数字かでプルダウン表示変更
