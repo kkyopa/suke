@@ -1,5 +1,4 @@
 <?php
-
 // ini_set("display_errors" , "on");
 // function debug($arg)
 // {
@@ -19,6 +18,5 @@
 <title>dartsarrange</title>
 </head>
 <body>
-<!-- <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script> -->
 </body>
 </html>
